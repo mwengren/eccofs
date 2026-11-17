@@ -17,7 +17,11 @@ classifiers = [
     "Intended Audience :: Science/Research",
     "Topic :: Scientific/Engineering :: Atmospheric Science",
 ]
-dependencies = []
+dependencies = [
+    "icechunk>=1.0",
+    "xarray>=2025.1",
+    "zarr>=3.0",
+]
 
 [project.optional-dependencies]
 dev = [
